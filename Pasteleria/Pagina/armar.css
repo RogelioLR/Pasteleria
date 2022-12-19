@@ -1,0 +1,17 @@
+* {
+    background-color: #ffcdd4;
+    font-family: Arial, Helvetica;
+}
+
+#title {
+    text-align: center;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 10px;
+}

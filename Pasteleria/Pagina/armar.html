@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Armar Pastel </title>
+    <link rel="stylesheet" href="./armar.css">
+</head>
+<body>
+
+    <div>
+        <h1 id="title"> <a href="./index.html"> <img id="logo" src="./../Media/Loop002.png"> </a> Arma Tu Pastel </h1>
+    </div>
+
+    <div id="formulario">
+        <br>
+        <br>
+        <p> Ingrese la información de su pedido. </p>
+        <p> Cantidad de Personas: </p>
+        <input type="number" id="peopleCake" placeholder="Numero de Personas" min="0">
+        <br>
+        <p> Elija la base del pastel: </p>
+        <select>
+            <option value="sencillo"> Pastel Sencillo </option>
+            <option value="cumple"> Pastel Cumpleañero </option>
+            <option value="clasico"> Pastel Clásico </option>
+            <option value="graduado"> Pastel Graduado </option>
+            <option value="mundial"> Pastel del Mundial </option>
+            <option value="mx"> Pastel México </option>
+            <option value="arcoiris"> Pastel Arcoiris</option>
+        </select>
+        <br>
+        <p> Elija el sabor del Chantilly: </p>
+        <input type="checkbox" id="fresa" name="fresa" value="fresa">
+        <label for="fresa"> Fresa </label>
+        <br>
+        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+        <label for="vainilla"> Vainilla </label>
+        <br>
+        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate"> Chocolate </label>
+        <br>
+        <input type="checkbox" id="limon" name="limon" value="limon">
+        <label for="limon"> Limon </label>
+        <br>
+        <p> Elija el tipo de harina: </p>
+        <input type="checkbox" id="trigo" name="trigo" value="trigo">
+        <label for="trigo"> Trigo </label>
+        <br>
+        <input type="checkbox" id="maiz" name="maiz" value="maiz">
+        <label for="maiz"> Maiz </label>
+        <br>
+        <input type="checkbox" id="amaranto" name="amaranto" value="amaranto">
+        <label for="amaranto"> Amaranto </label>
+        <br>
+        <input type="checkbox" id="nuez" name="nuez" value="nuez">
+        <label for="nuez"> Nuez </label>
+        <br>
+        <p> Elija Adornos: </p>
+        <input type="checkbox" id="velas" name="velas" value="velas">
+        <label for="velas"> Velas </label>
+        <input type="number" id="velasNumber" placeholder="Cantidad" max="10" min="0">
+        <br>
+        <input type="checkbox" id="superHeroe" name="superHeroe" value="superHeroe">
+        <label for="superHeroe"> Figura Superhéroe </label>
+        <select>
+            <option value="spiderMan"> Spider-Man </option>
+            <option value="superMan"> Super Man </option>
+            <option value="batMan"> Bat Man </option>
+            <option value="flash"> Flash </option>
+            <option value="wonderWoman"> Wonder Woman</option>
+        </select>
+        <br>
+        <input type="checkbox" id="adornoMundial" name="adornoMundial" value="adornoMundial">
+        <label for="adornoMundial"> Adorno del Mundial </label>
+        <select>
+            <option value="balon"> Balón </option>
+            <option value="fantasmin"> La'eeb </option>
+            <option value="seleccion"> Bandera de Selección </option>
+            <option value="trofeo"> Trofeo </option>
+        </select>
+        <br>
+        <p> Elija el color del Fondane: </p>
+        <input type="checkbox" id="azul" name="azul" value="azul">
+        <label for="azul"> Azul </label>
+        <br>
+        <input type="checkbox" id="rojo" name="rojo" value="rojo">
+        <label for="rojo"> Rojo </label>
+        <br>
+        <input type="checkbox" id="blanco" name="blanco" value="blanco">
+        <label for="blanco"> Blanco </label>
+        <br>
+        <input type="checkbox" id="verde" name="verde" value="verde">
+        <label for="verde"> Verde </label>
+        <br>
+        <input type="checkbox" id="naranja" name="naranja" value="naranja">
+        <label for="naranja"> Anaranjado </label>
+        <br>
+
+        <p> Use el siguiente recuadro para agragar especificaciones extra se lo necesita: </p>
+        <input type="text" id="especificaciones" name="espcifiaciones" placeholder="Especificaciones">
+    </div>
+
+    <div id="botones">
+        <br>
+        <br>
+        <a href="./pasteles.html"> <button> Cancelar Pedido :( </button> </a>
+        <a href="./finPedido.html"> <button> Continuar Pedido :) </button> </a>
+    </div>
+    
+</body>
+</html>
